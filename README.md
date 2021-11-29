@@ -8,7 +8,7 @@ will create two instances `-L :1111` and code after *--*  `-L :1112 -F *some con
 ### how to build
 ```
   git clone -b cmd-split https://github.com/caribpa/gost.git
-  cd gost
+  cd gost/cmd/gost
   go build
 ```
 
