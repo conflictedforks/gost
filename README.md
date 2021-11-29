@@ -1,3 +1,22 @@
+## forked from Caribpa, for -- subProcess spawn
+eg,   
+```
+gost -L :1111 -- -L :1112 -F *
+```
+will create two instances `-L :1111` and code after *--*  `-L :1112 -F *some config *`
+
+### how to build
+```
+  git clone -b cmd-split https://github.com/caribpa/gost.git
+  cd gost/cmd/gost
+  go build
+```
+
+---
+---
+---
+
+
 gost - GO Simple Tunnel
 ======
 
